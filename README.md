@@ -34,6 +34,9 @@ Dynamo可以设计各种相关的行为。Dynamo可以不断扩大,有以下的�
 
 In the midst of this activity and exciting opportunity for working with Dynamo, we need a document of the same caliber, the Dynamo Primer.
 
+在这个过程中，实用Dynamo都会令人兴奋，我们需要一个文档[Dynamo 中文手册]
+
+
 Version 1.0 of this Primer includes the first ten chapters developed by Mode Lab. These chapters focus on the essentials you will need to get up and running developing your own visual programs with Dynamo and key insights on how to take Dynamo further. Here's what you can expect to learn from the primer:
 
 * **Context** - What exactly is "Visual Programming" and what are the concepts I need to understand to dive in to Dynamo?
