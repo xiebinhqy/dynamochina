@@ -26,8 +26,11 @@ Dynamo可以设计各种相关的行为。Dynamo可以不断扩大,有以下的�
 * **Connect** workflows in various software
 * **连  接** 工作流程里边的各种数据链接
 * **Engage** an active community of users, contributors, and developers
-* **雇用** 一个活跃的使用者、编著者和开发人员
+* **社 区** 一个活跃的使用者、编著者和开发人员
 * **Develop** an open-source platform for continued improvement
+* **开发** an open-source platform for continued improvement
+
+
 
 In the midst of this activity and exciting opportunity for working with Dynamo, we need a document of the same caliber, the Dynamo Primer.
 
