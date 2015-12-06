@@ -28,7 +28,7 @@ Dynamo可以设计各种相关的行为。Dynamo可以不断扩大,有以下的�
 * **Engage** an active community of users, contributors, and developers
 * **社 区** 一个活跃的使用者、编著者和开发人员
 * **Develop** an open-source platform for continued improvement
-* **开发** an open-source platform for continued improvement
+* **开发** 一个开源平台持续改进
 
 
 
