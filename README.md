@@ -24,7 +24,7 @@ Dynamo可以设计各种相关的行为。Dynamo可以不断扩大,有以下的�
 * **Explore** visual programming for the first time
 * **探  索 **   可视化编程的第一次
 * **Connect** workflows in various software
-* **连  接** workflows in various software
+* **连  接** 工作流程里边的各种数据链接
 * **Engage** an active community of users, contributors, and developers
 * **Develop** an open-source platform for continued improvement
 
