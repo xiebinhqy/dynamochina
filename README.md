@@ -1,5 +1,5 @@
-#The Dynamo Primer
-##First Edition X0-4
+#The Dynamo Primer【Dyanamo 教学手册】
+##First Edition X1.0
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
