@@ -17,6 +17,10 @@ You have just opened the First Edition of the Dynamo Primer, a comprehensive gui
 
 
 The power of Dynamo can be found in a wide variety of design-related activities. Dynamo enables an expanding list of readily accessible ways for you to get started:
+
+Dynamo可以设计各种相关的行为。Dynamo可以不断扩大,有以下的方法：
+
+
 * **Explore** visual programming for the first time
 * **Connect** workflows in various software
 * **Engage** an active community of users, contributors, and developers
