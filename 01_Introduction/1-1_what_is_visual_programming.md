@@ -2,8 +2,7 @@
 
 Designing frequently involves establishing visual, systemic, or geometric relationships between the parts of a design. More times than not, these relationships are developed by workflows that gets us from concept to result by way of rules. Perhaps without knowing it, we are working algorithmically - defining a step-by-step set of actions that follow a basic logic of input, processing, and output. Programming allows us to continue to work this way but by formalizing our algorithms.
 
-设计通常涉及建立视觉、系统性、或几何部分的设计之间的关系。多次使用这些关系是由流线型,让我们从概念到实体的过程。也许在不知情的情况下,我们正在通过算法——定义一套循序渐进的行为遵循的基本原理进行，输入、处理
-和输出。编程允许我们继续这种方式而是通过形式化算法。
+设计通常涉及建立视觉、系统性、或几何部分的设计之间的关系。多次使用这些关系是由流线型,让我们从概念到实体的过程。也许在不知道的情况下,我们正在通过算法——定义一套有规律的的基本原理。进行，输入、处理和输出。编程允许我们使用这样形式化算法。
 
 
 ###Algorithms in Hand
