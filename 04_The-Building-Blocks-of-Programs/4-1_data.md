@@ -10,7 +10,7 @@ Data is a set of values of qualitative or quantitative variables. The simplest f
 2. Data and Action (A Node) successfully executes
 3. Action (A Node) without Data Inputs returns a generic function
 
-###Beware of Nulls
+###Beware of Nulls   【小心无效】
 The ```'null'``` type represents the absence of data. While this is an abstract concept, you will likely come across this while working with Visual Programming. If an action doesn't create a valid result, the Node will return a null. Testing for nulls and removing nulls from data structure is a crucial part to creating robust programs.
 
 | Icon | Name/Syntax | Inputs | Outputs |
