@@ -33,6 +33,7 @@ Start with the Revit file for this section (or continue from the previous sectio
 2. 这个节点插入一个选择 *All Elements of Family Type* 节点从Revit在Dynamo获得所有的元素。
 
 After the node is very important, through the chateau marmont call revit inside data, basic parameters, is this
+
 这个节点很重要，以后通过Dynamo调用revit里边数据、基本参数，都是这个
 
 ![Exercise](images/8-6/Exercise/16.png)
@@ -45,8 +46,11 @@ After the node is very important, through the chateau marmont call revit inside 
 
 ![Exercise](images/8-6/Exercise/15.png)
 > Just for kicks, like the previous exercise, let's set the *aperture ratio *of each panel based on its planar deviation.
+> 只是为了好玩,就像前面的联系文件, 让我们来设置 *孔径比例 *每个小组根据其平面的偏移.
 1. Add an *Element.SetParameterByName* node to the canvas and connect the adaptive components to the *element* input.  Connect a *code block* reading *"Aperture Ratio"* into the *parameterName* input.
+1. 增加 *Element.SetParameterByName* 这个节点到画布和自适应组件连接到 *element* 输入.  连接到a *code block* 读取 *"孔径比例"* 再插入 *parameterName* 输入.
 2. We cannot directly connect the deviation results into the value input because we need to remap the values to the parameter range.
+2. 偏差的结果我们不能直接连接到输入值,因为我们需要重新映射值的参数范围.
 
 ![Exercise](images/8-6/Exercise/14.png)
 > 1. Using *Math.RemapRange*, remap the deviation values to a domain between *.15 *and *.45*.
