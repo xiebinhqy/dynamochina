@@ -1,5 +1,7 @@
-## Vectors, Planes, and Coordinate Systems
+## Vectors, Planes, and Coordinate Systems   【向量、平面、和向量系统】
 Vectors, Planes, and Coordinate Systems make up the primary group of Abstract Geometry Types. They help us define location, orientation, and the spatial context for other geometry that describe shapes. If I say that I'm in New York City at 42nd Street and Broadway (Coordinate System), standing on the street level (Plane), looking North (Vector), I've just used these "Helpers" to define where I am. The same goes for a phone case product or a skyscraper - we need this context to develop our model.
+
+向量、平面和向量系统是抽象的几何体，这是帮助和说明，
 
 ![Vectors, Planes, and Coordinates](images/5-2/VectorsPlanesCoodinates.png)
 
