@@ -1,41 +1,20 @@
-#The Dynamo Primer【Dyanamo 教学手册】
-##First Edition X1.0
+#The Dynamo Primer
+##First Edition V1.3
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
 > Dynamo is an open source visual programming platform for designers.
 
-> Dynamo是一个开源的可视化参数编程设计软件。
-
 ### Welcome
 You have just opened the First Edition of the Dynamo Primer, a comprehensive guide to visual programming in Autodesk Dynamo Studio. This primer is an on-going project to share the fundamentals of programming. Topics include working with computational geometry, best practices for rules-based design, cross-disciplinary programming applications, and more with the Dynamo Platform.
 
-
-你将打开的是dynamo教学手册第一版本。
-一个编程指南由Autodesk Dynamo 指南
-这篇文章是分享dynamo运作的基本原理。主要包括处理几何、规则图形的参数化,跨学科的编程应用程序,和更多的Dynamo平台。
-
-
 The power of Dynamo can be found in a wide variety of design-related activities. Dynamo enables an expanding list of readily accessible ways for you to get started:
-
-Dynamo可以设计各种相关的行为。Dynamo可以不断扩大,有以下的方法：
-
-
 * **Explore** visual programming for the first time
-* **探  索**   可视化编程的第一次
 * **Connect** workflows in various software
-* **连  接** 工作流程里边的各种数据链接
 * **Engage** an active community of users, contributors, and developers
-* **社 区** 一个活跃的使用者、编著者和开发人员
 * **Develop** an open-source platform for continued improvement
-* **开发** 一个开源平台持续改进
-
-
 
 In the midst of this activity and exciting opportunity for working with Dynamo, we need a document of the same caliber, the Dynamo Primer.
-
-在这个过程中，实用Dynamo都会令人兴奋，我们需要一个文档[Dynamo 中文手册]
-
 
 Version 1.0 of this Primer includes the first ten chapters developed by Mode Lab. These chapters focus on the essentials you will need to get up and running developing your own visual programs with Dynamo and key insights on how to take Dynamo further. Here's what you can expect to learn from the primer:
 

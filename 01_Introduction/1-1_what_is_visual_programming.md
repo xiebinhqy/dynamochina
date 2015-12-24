@@ -1,12 +1,8 @@
-###What is Visual Programming?【可视化编程是什么?】
+###What is Visual Programming?
 
 Designing frequently involves establishing visual, systemic, or geometric relationships between the parts of a design. More times than not, these relationships are developed by workflows that gets us from concept to result by way of rules. Perhaps without knowing it, we are working algorithmically - defining a step-by-step set of actions that follow a basic logic of input, processing, and output. Programming allows us to continue to work this way but by formalizing our algorithms.
 
-
-设计通常涉及建立视觉、系统性、或几何部分的设计之间的关系。多次使用这些关系是由流线型,让我们从概念到实体的过程。也许在不知道的情况下,我们正在通过算法——定义一套有规律的的基本原理。进行，输入、处理和输出。编程允许我们使用这样形式化算法。
-
-
-###Algorithms in Hand 【 算法指南 】
+###Algorithms in Hand
 While offering some powerful opportunities, the term **Algorithm** can carry some misconceptions with it. Algorithms can generate unexpected, wild, or cool things, but they are not magic. In fact, they are pretty plain, in and of themselves. Let's use a tangible example like an origami crane. We start with a square piece of paper (input), follow a series of folding steps (processing actions), and result in a crane (output).
 
 ![Origami Crane](images/1-1/00-OrigamiCrane.png)
