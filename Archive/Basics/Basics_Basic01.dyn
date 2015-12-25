@@ -1,0 +1,23 @@
+<Workspace Version="0.7.0.42482" X="-3732.93901097413" Y="-827.405442288027" zoom="1.30071118175869" Description="" Category="" Name="Home">
+  <Elements>
+    <Dynamo.Nodes.DoubleInput type="Dynamo.Nodes.DoubleInput" guid="a8d28be4-5b93-4b68-a182-6e7d09b6147e" nickname="Number" x="2898.69722477541" y="870.914556274731" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Double value="2"/>
+    </Dynamo.Nodes.DoubleInput>
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="0d2e1e9d-21dc-4e5b-b105-e3bedca3b1f9" nickname="+" x="3345.38395751019" y="870.914556274731" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="" function="+@,"/>
+    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="89ef21b0-95e1-4b46-aabc-c02f16589b8d" nickname="Watch" x="3592.79738563383" y="870.914556274731" isVisible="true" isUpstreamVisible="true" lacing="Disabled"/>
+    <Dynamo.Nodes.DoubleInput type="Dynamo.Nodes.DoubleInput" guid="52048c47-73fb-4d5f-9221-e4c6b2b41126" nickname="Number" x="2898.69722477541" y="951.121650146262" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Double value="6"/>
+    </Dynamo.Nodes.DoubleInput>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="a8d28be4-5b93-4b68-a182-6e7d09b6147e" start_index="0" end="0d2e1e9d-21dc-4e5b-b105-e3bedca3b1f9" end_index="0" portType="0"/>
+    <Dynamo.Models.ConnectorModel start="0d2e1e9d-21dc-4e5b-b105-e3bedca3b1f9" start_index="0" end="89ef21b0-95e1-4b46-aabc-c02f16589b8d" end_index="0" portType="0"/>
+  </Connectors>
+  <Notes>
+    <Dynamo.Models.NoteModel text="基本函数输入(如数字和字符串)均可通过浏览或搜索从画布左侧的库中进行选择。&#xA;&#xA;要对数据执行的运算，如数学或几何变换，也可以从库中找到" x="2898.69722477541" y="719.863361861887"/>
+    <Dynamo.Models.NoteModel text="Dynamo 是可视化编程语言，其工作方式类似于其他语言，通过将简单元素连接在一起以形成更复杂的创意" x="2898.69722477541" y="651.054850598851"/>
+    <Dynamo.Models.NoteModel text="从数字节点上的“&gt;”端口拉出连接件，并将其连接到 + 节点上的“y”端口，然后按下应用程序左下角的“运行”按钮。" x="3019.41135857941" y="945.489143900592"/>
+    <Dynamo.Models.NoteModel text="单击应用程序右下角的“运行”按钮可将数据可视化。如果启用“自动运行”，则应用程序将不断更新。&#xA;&#xA;使用“观看”节点或单击大多数节点底部的小方块，可以查看数据。" x="3711.71399193364" y="874.778613476432"/>
+    <Dynamo.Models.NoteModel text="在“帮助”菜单中可以查看更多示例文件，或单击选项卡上的“X”关闭该文件以返回欢迎页面" x="2898.69722477541" y="1040.84161272577"/>
+  </Notes>
+</Workspace>
