@@ -12,12 +12,21 @@ thead {display: none}
 
 
 # INDEX OF NODES
+# 索引节点
+
+
 
 ##### This index provides additional information on all the nodes used in this primer, as well as other components you might find useful. This is just an introduction to some of the 500 nodes available in Dynamo.
+
+#####  在所有节点上使用这个索引提供了额外的信息在这个Dynamo,您可能会发现有用的以及其他组件。这只是介绍一些可用的500个节点的dynamo.
 
 
 
 Bulitin Functions
+
+嵌入式函数
+
+
 --
 
 ||||
