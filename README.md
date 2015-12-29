@@ -65,7 +65,7 @@ Version 1.0 of this Primer includes the first ten chapters developed by Mode Lab
 
 This is an exciting time to be learning about, working with, and developing for Dynamo. Let's get started
 
-一个激动人心的时学习刻即将来了,工作,和发展中对发电机。让我们开始吧! !
+一个激动人心的时学习刻即将来了,让我们一起开始Dynamo的学习吧！
 
 ---
 ### The Dynamo Primer Project
