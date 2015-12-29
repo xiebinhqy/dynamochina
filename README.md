@@ -39,8 +39,13 @@ In the midst of this activity and exciting opportunity for working with Dynamo, 
 
 Version 1.0 of this Primer includes the first ten chapters developed by Mode Lab. These chapters focus on the essentials you will need to get up and running developing your own visual programs with Dynamo and key insights on how to take Dynamo further. Here's what you can expect to learn from the primer:
 
+这个版本是在之前开发dynamo语言手册基础之上的的Dynamoprimer。这些章节重点是需要自己去学习的.这也是这本书的价值所在.
+
+
 * **Context** - What exactly is "Visual Programming" and what are the concepts I need to understand to dive in to Dynamo?
+* **视觉编程** -“视觉编程”是什么概念我需要了解Dynamo吗?
 * **Getting Started** - How do I get Dynamo and create my first program?
+* **入门指南** -我怎么得到Dynamo并创建我的第一个程序
 * **What's in a Program** - What are the functional parts of Dynamo and how do I use them?
 * **Building Blocks** - What is "Data" and what are some fundamental types I can start using in my programs?
 * **Geometry for Design** - How do I work with geometric elements in Dynamo?
