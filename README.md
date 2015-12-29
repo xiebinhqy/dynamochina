@@ -69,13 +69,20 @@ This is an exciting time to be learning about, working with, and developing for 
 
 ---
 ### The Dynamo Primer Project
+---
+###  dynamo指导项目
+
 The Dynamo Primer is an open source project, initiated by Matt Jezyk and the Dynamo Development team at Autodesk.
+
+dynamo是个开源项目,由马特Jezyk和Autodesk的Dynamo的开发团队共开发.
 
 **Mode Lab** was commissioned to write the First Edition of the primer. http://modelab.is
 
+* *实验室模式* *委托编写的第一版指导教材。http://modelab.is
+
 ![Mode Lab Logo](images/MODELAB_Logo.png)
 
-### Acknowledgments
+### Acknowledgments    特别感谢
 
 A special thanks to Ian Keough for initiating and guiding the Dynamo project.
 
