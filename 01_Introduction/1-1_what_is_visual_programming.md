@@ -64,3 +64,6 @@ The results of our algorithm:
 
 The visual characteristic to programming in such a way lowers the barrier to entry and frequently speaks to designers. Dynamo falls in the Visual Programming paradigm, but as we will see later, we can still use textual programming in the application as well.
 
+
+视觉特征到编程的方式降低了门槛,经常与设计师。发电机在视觉编程范式,但我们会看到之后,我们仍然可以在应用程序中使用文本编程。
+
