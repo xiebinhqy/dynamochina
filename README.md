@@ -47,15 +47,25 @@ Version 1.0 of this Primer includes the first ten chapters developed by Mode Lab
 * **Getting Started** - How do I get Dynamo and create my first program?
 * **入门指南** -我怎么得到Dynamo并创建我的第一个程序
 * **What's in a Program** - What are the functional parts of Dynamo and how do I use them?
+* **这是什么程序** - 什么是Dynamo的节点件和如何使用它.
 * **Building Blocks** - What is "Data" and what are some fundamental types I can start using in my programs?
+*  **搭建数据**什么是“数据”,有哪些基本类型可以使用
 * **Geometry for Design** - How do I work with geometric elements in Dynamo?
-* **Lists, Lists, Lists** - How to do I manage and coordinate my data structures?
+* **几何设计** - 怎么在工作中了解dynamo几何的基本原理.
+* **Lists, Lists, Lists** - How to do I manage and coordinate my data structures? 
+*  **数列，数据列表** - 我怎么去做控制和管理我的数据结构.
 * **Code in Nodes** - How can I start extending Dynamo with my own code?
+* **节点代码** - 我怎么在Dynamo中扩展自己的代码.
 * **Computational BIM** - How can I use Dynamo with a Revit model?
+* **BIM计算** -我如何在revit模型中使用Dynamo.
 * **Custom Nodes** - How can I create my own nodes?
+* **自定义节点** -我如何创建自己的节点?
 * **Packages** - How can I share my tools with the community?
+* **程序包** -我怎么能与社区分享我的自定义节点?
 
-This is an exciting time to be learning about, working with, and developing for Dynamo. Let's get started!
+This is an exciting time to be learning about, working with, and developing for Dynamo. Let's get started
+
+一个激动人心的时学习刻即将来了,工作,和发展中对发电机。让我们开始吧! !
 
 ---
 ### The Dynamo Primer Project
