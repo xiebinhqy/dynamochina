@@ -1,8 +1,13 @@
-##Dynamo Example Files
+##Dynamo Example Files   Dynamo示例文件
 
 #####These example files accompany the Dynamo Primer, and are organized according to Chapter and Section.
+
+#####这些示例文件随Dynamo文件,根据前边的章节的.
+
 >Right click files and use "Save Link As..."
 
+
+右击文件,使用“链接另存为…”
 
 
 <style>
@@ -12,13 +17,15 @@ td:nth-child(2){width:550px;}
 table{box-shadow: 2px 2px 2px #BBBBBB}
 </style>
 
-####Introduction####
+####Introduction####  
+####入门####   
 |Section|Download File|
 |--|--|
 |What is Visual Programming|[Visual Programming - Circle Through Point.dyn](../01_Introduction/datasets/1-1/Visual Programming - Circle Through Point.dyn)
 
 
 ####The Building Blocks of Programs####
+程序的构建块
 
 |Section|Download File|
 |--|--|
@@ -29,6 +36,8 @@ table{box-shadow: 2px 2px 2px #BBBBBB}
 |Color|[Building Blocks of Programs - Color.dyn](../04_The-Building-Blocks-of-Programs/datasets/4-5/Building Blocks of Programs - Color.dyn)
 
 ####Geometry for Computational Design####
+几何计算设计
+
 |Section|Download File|
 |--|--|
 |Geometry Overview|[Geometry for Computational Design - Geometry Overview.dyn](../05_Geometry-for-Computational-Design/datasets/5-1/Geometry for Computational Design - Geometry Overview.dyn)
@@ -41,6 +50,8 @@ table{box-shadow: 2px 2px 2px #BBBBBB}
 ||[Surface.sat](../05_Geometry-for-Computational-Design/datasets/5-5/Surface.sat)
 
 ####Designing with Lists####
+设计与列表
+
 |Section|Download File|
 |--|--|
 |What's a List|[Lacing.dyn](../06_Designing-with-Lists/datasets/6-1/Lacing.dyn)
@@ -62,6 +73,8 @@ table{box-shadow: 2px 2px 2px #BBBBBB}
 
 
 ####Code Blocks and DesignScript####
+代码块和设计脚本
+
 |Section|Download File|
 |--|--|
 |DesignScript Syntax|[Dynamo-Syntax_Attractor-Surface.dyn](../07_Code-Block/datasets/7-2/Dynamo-Syntax_Attractor-Surface.dyn)
@@ -83,6 +96,8 @@ table{box-shadow: 2px 2px 2px #BBBBBB}
 ||[ARCH-Documenting-BaseFile.rvt](../08_Dynamo-for-Revit/datasets/8-6/ARCH-Documenting-BaseFile.rvt)
 
 ####Custom Nodes####
+自定义节点 
+
 |Section|Download File|
 |--|--|
 |Creating a Custom Node|[UV-CustomNode.zip](../09_Custom-Nodes/datasets/9-2/UV-CustomNode.zip)
@@ -93,6 +108,9 @@ table{box-shadow: 2px 2px 2px #BBBBBB}
 |Python and Revit|[Revit-StructuralFraming.zip](../09_Custom-Nodes/datasets/9-5/Revit-StructuralFraming.zip)
 
 ####Packages####
+程序包
+
+
 |Section|Download File|
 |--|--|
 |Package Case Study - Mesh Toolkit|[MeshToolkit.zip](../10_Packages/datasets/10-2/MeshToolkit.zip)
