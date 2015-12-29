@@ -86,26 +86,52 @@ dynamo是个开源项目,由马特Jezyk和Autodesk的Dynamo的开发团队共开
 
 A special thanks to Ian Keough for initiating and guiding the Dynamo project.
 
+特别感谢伊恩Keough启动和指导Dynamo项目.
+
+
 Thank you to Matt Jezyk, Ian Keough, Zach Kron, and Colin McCrone for enthusiastic collaboration and the opportunity to participate on a wide array of Dynamo projects.
 
-### Software and Resources
+感谢马特•Jezyk伊恩Keough扎克克隆亚麻,科林McCrone热情合作参与各种Dynamo各种研发.
+
+### Software and Resources   软件和资源
 **Dynamo** The current stable release of Dynamo is Version 0.8.
+
+参数化Dynamo当前稳定版本是0.9.0版。
+
 
 http://dynamobim.com/download/
 
+这个Dynamo的官方网站，这个网站必须要翻墙才能上去，下载软件也必须要翻墙出去，到时候我会下载下来，通过百度云盘的方式放在这上边，已提供给大家下载及学习.
+
 **DynamoBIM** The best source for additional information, learning content, and forums is the DynamoBIM website.
+
+DynamoBIM附加信息的最佳来源,学习内容,DynamoBIM网站和论坛。
 
 http://dynamobim.org
 
 **Dynamo GitHub** Dynamo is an open-source development project on Github. To contribute, check out DynamoDS hosted by Ian Keough.
 
+Dynamo在GitHub GitHub Dynamo是一个开源开发项目。提供是DynamoDS伊恩Keough主持.
+
 https://github.com/ikeough/Dynamo
 
-### License
-Copyright 2015 Autodesk
+dynamo在github中文翻译的提供地址为 https://github.comxiebinhqyh/dynamochina
+
+这一部分暂时，我在负责，里边如有翻译不正确希望指出，大家一起来完善.
+
+### License  许可
+Copyright 2015 Autodesk    版权2015欧特克
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+
+在Apache许可下的2.0版本(“许可证”);你可能不使用这个文件符合许可除外。你可能会获得一份许可证
 
 http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+除非适用法律要求或书面同意,在许可证下发布的软件是分布在一个“是”的基础上,没有任何形式的保证或条件,无论是明示或默示。看到许可下的特定语言管理权限和限制许可证。
+
+谢谢！ Deattor 2015
