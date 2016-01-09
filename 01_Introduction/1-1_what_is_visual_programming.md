@@ -34,12 +34,14 @@ paper, coloured side up. Fold in half and open. Then fold in half the other way.
 12. Inside Reverse Fold one side to make a head, then fold down the wings.
 13. You now have a crane.
 
-**Graphical Instructions:**
+**Graphical Instructions:**   图形指令
 
 ![Needs Update- Origami Crane](images/1-1/01-OrigamiCraneInstructions.png)
 
-###Programming Defined
+###Programming Defined   编程定义
 Using either of these sets of instructions should result in a crane, and if you followed along yourself, you've applied an algorithm. The only difference is the way in which we read the formalization of that set of instructions and that leads us to **Programming**. Programming, frequently shortened from *Computer Programming*, is the act of formalizing the processing of a series of actions into an executable program. If we turned the above instructions for a creating crane into a format our computer can read and execute, we are Programming.
+
+使用这些设置的指令命令你就能够做成纸鹤,如果你沿着自己的一个进行操作。唯一的区别是我们得到的指令规范化编程，在编程中缩短计算机一系列行为或处理的一个可执行程序。如果我们把上面的创建纸鹤指令形式输入电脑并执行的这么一个过程。也可以简单理解为算法。
 
 The key to and first hurdle we will find in Programming, is that we have to rely on some form of abstraction to communicate effectively with our computer. That takes the form of any number of Programming Languages, such as Javascript, Python, or C. If we can write out a repeatable set of instructions, like for the origami crane, we only need to translate it for the computer. We are on our way to having the computer be able to make a crane or even a multitude of different cranes where each one varies slightly. This is the power of Programming - the computer will repeatedly execute whatever task, or set of tasks, we assign to it, without delay and without human error.
 
