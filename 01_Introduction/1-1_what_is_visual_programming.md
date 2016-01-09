@@ -80,7 +80,7 @@ myCircle = Circle.ByCenterPointRadius(myPoint,dist);
 ```
 
 
- 这个我就不翻译了，如果会编程的通知一看就懂了，
+ 这个我就不翻译了，如果会编程的通知一看就懂了。
  
  
  
