@@ -9,11 +9,16 @@ Designing frequently involves establishing visual, systemic, or geometric relati
 ###Algorithms in Hand 【 算法指南 】
 While offering some powerful opportunities, the term **Algorithm** can carry some misconceptions with it. Algorithms can generate unexpected, wild, or cool things, but they are not magic. In fact, they are pretty plain, in and of themselves. Let's use a tangible example like an origami crane. We start with a square piece of paper (input), follow a series of folding steps (processing actions), and result in a crane (output).
 
+Dynamo提供一些强大的运算,它可以运载一些错误的算法。算法可以产生意想不到的效果,或者很酷的东西。事实上他们很普通。让我们用一例子来说明一下。像一个纸鹤。我们从一个正方形的纸对折,遵循一系列的折叠步骤(处理行动),最终就形成了纸鹤，在这个过程中，也就是一个算法的过程。
+
 ![Origami Crane](images/1-1/00-OrigamiCrane.png)
 
 So where is the Algorithm? It is the abstract set of steps, which we can represent in a couple of ways - either textually or graphically.
 
-**Textual Instructions:**
+所以算法是什么，它是抽象的步骤,我们可以在几个方面来表示——数据或图形
+
+
+**Textual Instructions:**    文本命令 （以下是纸鹤的图形折叠的图）
 1. Start with a square piece of
 paper, coloured side up. Fold in half and open. Then fold in half the other way.
 2. Turn the paper over to the white side. Fold the paper in half, crease well and open, and then fold again in the other direction.
