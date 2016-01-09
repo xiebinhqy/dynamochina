@@ -84,9 +84,6 @@ myCircle = Circle.ByCenterPointRadius(myPoint,dist);
  
  
  
- 
- 
- 
 The results of our algorithm:
 
 ![Circle Through Point ](images/1-1/04-CircleThroughPoint.png)
