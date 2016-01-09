@@ -1,4 +1,4 @@
-##What is Dynamo?
+##What is Dynamo?     dynamo是什么
 Dynamo is, quite literally, what you make it. Working with Dynamo may include using the application, either in connection with other Autodesk software or not, engaging a Visual Programming process, or participating in a broad community of users and contributers.
 
 ###The Application
