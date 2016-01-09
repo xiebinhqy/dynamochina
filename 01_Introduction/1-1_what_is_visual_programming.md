@@ -48,7 +48,7 @@ The key to and first hurdle we will find in Programming, is that we have to rely
 我们会发现在程序设计中,必须依靠电脑某种有效形式进行沟通。采用各种形式的编程语言,如Javascript、Python或c。如果能写出一组可重复的指令,就像纸鹤,我们只需要把它翻译为计算机语言，让计算机能够制作出纸鹤，甚至多种不同的纸鹤,这就是编程的能力,它将重复执行任何任务或一组任务,我们分配给它制作，没有人为的错误。
 
 
-####Visual Programming Defined
+####Visual Programming Defined   可视化编程定义
 >Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Visual Programming - Circle Through Point.dyn](datasets/1-1/Visual Programming - Circle Through Point.dyn). A full list of example files can be found in the Appendix.
 
 If you were tasked with writing instructions for folding an origami crane, how would you go about it? Would you make them with graphics, text, or some combination of the two?
