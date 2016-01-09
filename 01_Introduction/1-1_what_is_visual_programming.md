@@ -45,6 +45,9 @@ Using either of these sets of instructions should result in a crane, and if you 
 
 The key to and first hurdle we will find in Programming, is that we have to rely on some form of abstraction to communicate effectively with our computer. That takes the form of any number of Programming Languages, such as Javascript, Python, or C. If we can write out a repeatable set of instructions, like for the origami crane, we only need to translate it for the computer. We are on our way to having the computer be able to make a crane or even a multitude of different cranes where each one varies slightly. This is the power of Programming - the computer will repeatedly execute whatever task, or set of tasks, we assign to it, without delay and without human error.
 
+我们会发现在程序设计中,必须依靠电脑某种有效形式进行沟通。采用各种形式的编程语言,如Javascript、Python或c。如果能写出一组可重复的指令,就像纸鹤,我们只需要把它翻译为计算机语言，让计算机能够制作出纸鹤，甚至多种不同的纸鹤,这就是编程的能力,它将重复执行任何任务或一组任务,我们分配给它制作，没有人为的错误。
+
+
 ####Visual Programming Defined
 >Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Visual Programming - Circle Through Point.dyn](datasets/1-1/Visual Programming - Circle Through Point.dyn). A full list of example files can be found in the Appendix.
 
