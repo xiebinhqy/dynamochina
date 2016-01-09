@@ -51,15 +51,25 @@ The key to and first hurdle we will find in Programming, is that we have to rely
 ####Visual Programming Defined   可视化编程定义
 >Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Visual Programming - Circle Through Point.dyn](datasets/1-1/Visual Programming - Circle Through Point.dyn). A full list of example files can be found in the Appendix.
 
+下载附带的示例文件(右键点击“链接另存为…）[Visual Programming - Circle Through Point.dyn](datasets/1-1/Visual Programming - Circle Through Point.dyn)示例文件的完整列表可以在附录中找到。
+
 If you were tasked with writing instructions for folding an origami crane, how would you go about it? Would you make them with graphics, text, or some combination of the two?
+
+如果你是负责编写说明折纸鹤,你怎么说明呢?
+你会让他们与图形，文本来说明，或者两者组合说明.
+
 
 If your answer contained graphics, then **Visual Programming** is definitely for you. The process is essentially the same for both Programming and Visual Programming. They utilize the same framework of formalization; however, we define the instructions and relationships of our program through a graphical (or "Visual") user interface. Instead of typing text bound by syntax, we connect pre-packaged nodes together. Here's a comparison of the same algorithm - "draw a circle through a point" - programmed with nodes versus code:
 
-**Visual Program:**
+如果你的回答包含图形,那你就可以使可视化编程。在这个过程中，本质上是相同的编程和可视化编程。他们使用相同的框架，然而我们的程序指令和关系是通过图形用户界面(或“视觉”)，而不是输入文本。
+
+
+
+**Visual Program:**  可视化编程
 
 ![Basic Visual Program ](images/1-1/03-BasicVisualProgram.png)
 
-**Textual Program:**
+**Textual Program:**  文本程序
 ```
 myPoint = Point.ByCoordinates(0.0,0.0,0.0);
 x = 5.6;
@@ -68,6 +78,15 @@ attractorPoint = Point.ByCoordinates(x,y,0.0);
 dist = myPoint.DistanceTo(attractorPoint);
 myCircle = Circle.ByCenterPointRadius(myPoint,dist);
 ```
+
+
+ 这个我就不翻译了，如果会编程的通知一看就懂了，
+ 
+ 
+ 
+ 
+ 
+ 
 The results of our algorithm:
 
 ![Circle Through Point ](images/1-1/04-CircleThroughPoint.png)
