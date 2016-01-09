@@ -77,7 +77,7 @@ dynamo是个开源项目,由马特Jezyk和Autodesk的Dynamo的开发团队共开
 
 **Mode Lab** was commissioned to write the First Edition of the primer. http://modelab.is
 
-* *实验室模式* *委托编写的第一版指导教材。http://modelab.is
+* **实验室模式**  委托编写的第一版指导教材。http://modelab.is
 
 ![Mode Lab Logo](images/MODELAB_Logo.png)
 
