@@ -1,5 +1,8 @@
-##What is Dynamo?     dynamo是什么
+##What is Dynamo?     
+##  Dynamo是什么
 Dynamo is, quite literally, what you make it. Working with Dynamo may include using the application, either in connection with other Autodesk software or not, engaging a Visual Programming process, or participating in a broad community of users and contributers.
+
+就是使用Dynamo应用程序与其他Autodesk软件进行可视化编程过程.
 
 ###The Application
 Dynamo, the application, is a software that can be downloaded and run in either stand-alone "Sandbox" mode or as a plug-in for other software like Revit or Maya. It is described as:
