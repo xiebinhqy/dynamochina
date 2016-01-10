@@ -15,13 +15,23 @@ Dynamo大多数节点是由五个部分组成，虽然也有例外，比如输�
 
 ![Node Breakdown Point by Coordinates](images/3-1/00-AnatomyOfANode.png)
 >1. Name - The Name of the Node with a Category.Name naming convention
+
+>1.  节点名字——节点的名称和类别.
 2. Main - The main body of the Node - Right-clicking here presents options at the level of the whole Node
 3. Ports (In and Out) - The receptors for Wires that supply the input data to the Node as well as the results of the Node's action
 4. Data Preview - Hover or click to see a tooltip describing the results of the Node's action
 5. Lacing Icon - Indicates the Lacing option specified for matching list inputs (more on that later)
 
 ### Ports
+
+### 端口
+
 The Inputs and Outputs for Nodes are called Ports and act as the receptors for Wires. Data comes into the Node through Ports on the left and flows out of the Node after it has executed its operation on the right. Ports expect to receive data of a certain type. For instance, connecting a number such as *2.75* to the Ports on a Point By Coordinates Node will successfully result in creating a Point; however, if we supply *"Red"* to the same Port it will result in an error.
+
+的输入和输出节点被称为港口和作为导线的受体。数据进入左边的节点之间通过端口和流出节点的右边后执行其操作。港口期望接收某种类型的数据。例如,连接数* 2.75 *等港口的点坐标节点成功将导致创建一个点,然而,如果我们提供*“红色”*相同的端口,它将导致一个错误。
+
+
+
 
 > Tip: Hover over a Port to see a tooltip containing the data type expected.
 
