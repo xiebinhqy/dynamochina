@@ -9,23 +9,24 @@ Dynamo is, quite literally, what you make it. Working with Dynamo may include us
 
 Dynamo, the application, is a software that can be downloaded and run in either stand-alone "Sandbox" mode or as a plug-in for other software like Revit or Maya. It is described as:
 
-Dynamo应用程序是一种软件,可以下载并运行在独立的电脑上，或作为其他软件的插件如Revit或maya雅。它被描述为:
+Dynamo应用程序是一种软件,可以下载并运行在独立的电脑上，或作为其他软件的插件如Revit或maya。它被描述为:
 
 
 > A visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
 
+> Dynamo是非程序人员和程序人员都可以用的可视化编程工具，它是通过可视化的方式来进行脚本行为的能力，自定义的编辑，以及使用各种文本和脚本编程语言.
 
-> 可视化编程工具,旨在可以非程序员和程序员。它给用户视觉上的脚本行为的能力,自定义的逻辑,使用各种文本和脚本编程语言。
+
+
 
 ![Dyanmo website-update number](images/1-2/00-DynamoHomepage.png)
 > 1. See Dynamo in action with Revit
 
->     看到发电机与Revit在行动
-
+> 1.  Dynamo在revit中的使用
 
 > 2. Download the installer
 
->2. 下载安装程序
+> 2. 下载安装程序
 
 
 ###The Process  过程
