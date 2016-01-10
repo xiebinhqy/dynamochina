@@ -1,9 +1,18 @@
 ##NODES
+## 节点
 
 In Dynamo, **Nodes** are the objects you connect to form a Visual Program. Each **Node** performs an operation - sometimes that may be as simple as storing a number or it may be a more complex action such as creating or querying geometry.
 
+在Dynamo中“节点”，节点对象连接到一起，形成一个视觉程序，每个节点执行一个操作，有时可能是简单的存储数量或者它是一个更复杂的操作，如创建或查询几何.
+
 ###Anatomy of a Node
+
+### 解析节点
+
 Most Nodes in Dynamo are composed of five parts. While there are exceptions, such as Input Nodes, the anatomy of each Node can be described as follows:
+
+Dynamo大多数节点是由五个部分组成，虽然也有例外，比如输入节点，每个节点的结构有如下部分组成：
+
 ![Node Breakdown Point by Coordinates](images/3-1/00-AnatomyOfANode.png)
 >1. Name - The Name of the Node with a Category.Name naming convention
 2. Main - The main body of the Node - Right-clicking here presents options at the level of the whole Node
