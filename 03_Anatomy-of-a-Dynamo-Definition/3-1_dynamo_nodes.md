@@ -35,10 +35,12 @@ The Inputs and Outputs for Nodes are called Ports and act as the receptors for W
 
 > Tip: Hover over a Port to see a tooltip containing the data type expected.
 
+> 提示:在港口看到工具提示包含数据类型的预期。
+
 ![Port Labels-Point by Coordinates](images/3-1/01-Ports.png)
->1. Port Label
-2. Tool Tip
-3. Data Type
+>1. Port Label  端口标签
+2. Tool Tip 提示工具
+3. Data Type  数据类型
 
 ###States
 Dynamo gives an indication of the state of the execution of your Visual Program by rendering Nodes with different color schemes based on each Node's status. Furthermore, hovering or right-clicking over the Name or Ports presents additional information and options.
@@ -52,6 +54,8 @@ Dynamo gives an indication of the state of the execution of your Visual Program 
 5. Default Value - Right-click on an input Port - some Nodes have default values that can be used or not used
 
 If your Visual Program contains warning or errors, Dynamo will provide additional information about the problem. Any Node that is Yellow will also have a tooltip above the Name. Hover your mouse over the tooltip to expand it.
+
+如果你的视觉程序包含警告或错误,发电机将提供额外的信息问题。任何节点上面是黄色的也会提示这个名字。扩大你的鼠标悬停在工具提示。
 
 > Tip: With this tooltip information in hand, examine the upstream Nodes to see if the data type or data structure required is in error.
 
