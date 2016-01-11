@@ -1,7 +1,7 @@
-## Solids
+## Solids   立方体
 If we want to construct more complex models that cannot be created from a single surface or if we want to define an explicit volume, we must now venture into the realm of Solids (and Polysurfaces). Even a simple cube is complex enough to need six surfaces, one per face. Solids give access to two key concepts that Surfaces do not - a more refined topological description (faces, edges, vertices) and Boolean operations.
 
-### What's a Solid?
+### What's a Solid?   立方体是什么?
 Solids consist of one or more Surfaces that contain volume by way of a closed boundary that defines "in" or "out." Regardless of how many of these Surfaces there are, they must form a "watertight" volume to be considered a Solid. Solids can be created by joining Surfaces or Polysurfaces together or by using operations such as loft, sweep, and revolve. Sphere, Cube, Cone and Cylinder primitives are also Solids. A Cube with at least one face removed counts as a Polysurface, which has some similar properties, but it is not a Solid.
 
 ![Solids](images/5-6/Primitives.png)
@@ -11,7 +11,7 @@ Solids consist of one or more Surfaces that contain volume by way of a closed bo
 4. A Cylinder is made of three surfaces joined together to make a Solid.
 5. A Cube is made of six surfaces joined together to make a Solid.
 
-### Topology
+### Topology    解析
 Solids are made up of three types of elements: Vertices, Edges, and Faces. Faces are the surfaces that make up the Solid. Edges are the Curves that define the connection between adjacent faces, and vertices are the start and end points of those Curves. These elements can be queried using the Topology nodes.
 
 ![Topology](images/5-6/Solid-topology.png)
@@ -20,14 +20,14 @@ Solids are made up of three types of elements: Vertices, Edges, and Faces. Faces
 2. Edges
 3. Vertices
 
-### Operations
+### Operations  操作
 Solids can be modified by filleting or chamfering their edges to eliminate sharp corners and angles. The chamfer operation creates a ruled surface between two faces, while a fillet blends between faces to maintain tangency. 
 ![](images/5-6/SolidOperations.png)
 >1. Solid Cube
 2. Chamfered Cube
 3. Filleted Cube
 
-### Boolean Operations
+### Boolean Operations   布尔运算
 Solid Boolean operations are methods for combining two or more Solids. A single Boolean operation actually means performing four operations: 
 1. **Intersect** two or more objects.
 2. **Split** them at the intersections.
