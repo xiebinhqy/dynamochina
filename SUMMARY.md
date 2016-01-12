@@ -53,7 +53,7 @@
    * [Publishing to Your Library](09_Custom-Nodes/9-3_Library.md)
    * [Python Nodes](09_Custom-Nodes/9-4_Python.md)
    * [Python and Revit](09_Custom-Nodes/9-5_Python-Revit.md)
-   * [extensions](09_Custom-Nodes/extensionsmd.md)
+   * [extensions](09_Custom-Nodes/9-4_09_Extensions/Extensions.md)
 * [Packages](10_Packages/10-Packages.md)
    * [Package Introduction](10_Packages/10-1_Introduction.md)
    * [Package Case Study - Mesh Toolkit](10_Packages/10-2_Mesh-Toolkit.md)
