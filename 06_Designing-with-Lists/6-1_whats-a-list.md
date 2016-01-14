@@ -1,4 +1,5 @@
 ## What's a List?
+##  测试账号，两人协作
 A list is a collection of elements, or items.  Take a bunch of bananas, for example.  Each banana is an item within the list (or bunch). It's easier to pick up a bunch of bananas rather than each banana individually, and the same holds for grouping elements by parametric relationships in a data structure.
 
 ![Bananas](images/6-1/Bananas_white_background_DS.jpg)
