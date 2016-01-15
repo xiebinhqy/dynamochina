@@ -1,4 +1,5 @@
 ## Editing
+##测试账号   协作
 A powerful feature of Dynamo is that you can edit parameters on a parametric level.  For example, a generative algorithm or the results of a simulation can be used to drive the parameters of an array of elements. This way, a set of instances from the same family can have custom properties in your Revit project.
 ### Type and Instance Parameters
 ![Exercise](images/8-5/Exercise/32.png)
