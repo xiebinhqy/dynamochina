@@ -94,14 +94,6 @@ http://www.apache.org/licenses/LICENSE-2.0
 谢谢！ Deattor 2015
 
 
-翻译进度表：https://github.com/xiebinhqy/dynamochina/wiki/
-
-
-
-
-
-
-
 
 
 
