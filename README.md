@@ -1,4 +1,4 @@
-#The Dynamo Primer【Dyanamo 教学手册】
+#【Dyanamo 中文手册】
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
