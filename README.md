@@ -106,9 +106,9 @@ http://www.apache.org/licenses/LICENSE-2.0
    ||(2)Dynamo的定义|_ |
    ||(3)Dynamo的功能|_ |
 |02 入门基础|(1)安装和运行软件|_ |
-   ||(2)Dynamo的定义|_ |
-   ||(3)Dynamo的功能|_ |
-
+   ||(2)Dynamo的用户界面|_ |
+   ||(3)Dynamo的工作区|_ |
+   ||(4)Dynamo的入门指南|_ |
 
 
 
