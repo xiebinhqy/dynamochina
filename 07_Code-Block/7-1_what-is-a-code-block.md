@@ -1,7 +1,6 @@
-## What's a Code Block?
-
 ## 什么是Code Block？
 Code block is the special sauce of Dynamo.  It is a powerful tool which allows the user to work fluidly and parametrically throughout a project.  While the term 'code block' may be a little intimidating to non-programmers, it is both easy to use and robust.  A beginner can use the code block efficiently with minimal coding, and an advanced user can define scripted definitions to be recalled elsewhere in a Dynamo definition.  We highly recommend that you get familiar with code block as you develop your Dynamo definitions, and this chapter demonstrates how and why the code block is awesome.
+
 Code block是Dynamo中一个特殊的节点。它
 
 ![Code Block Intro](images/7-1/daisy.png)
@@ -25,13 +24,9 @@ Code Block节点可以在*Core>Input>Actions>Code Block*下面找到。但是最
 
 ![Code Block Intro](images/7-1/uicb.png)
 
-### Numbers, strings, and formulas
-
 ### 数值、字符串和公式
 
-Code blocks are also flexible towards data types.  The user can quickly define numbers, strings, and formulas and the code block will deliver the desired output.
-
-Code block
+Code block可以灵活地使用数据类型。用户可以快速的定义数值、字符串和公式并将其输出。
 
 In the image below, you can see the "old school" way of doing things is a little long-winded: the user searches for the intended node in the interface, adds the node to the canvas, and then inputs the data.  With code block, the user can double-click on the canvas to pull up the node, and type in the correct data type with basic syntax.
 
