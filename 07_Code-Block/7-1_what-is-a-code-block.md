@@ -5,13 +5,12 @@
 ![Code Block Intro](images/7-1/daisy.png)
 
 ###Code Block概览
-简单来说，*Code Block*是一个可视化编程环境中的一个脚本接口。它可以当作数值、字符串、公式等。当你在*Code Block*中定义任何变量时，该变量将自动添加到输入的节点中：
+简单来说，*Code Block*是一个可视化编程环境中的一个脚本接口。它可以当作数值、字符串、公式等。当你在*Code Block*中定义任何变量时，该变量将自动添加到输入端点中：
 
 使用*Code Block*节点用户可以灵活的指定输入的内容。以下展示了几种不同的方法来创建一个坐标为(10,5,0)的点:
 ![Flexibility](images/7-2/flexibility.png)
 
-As you learn more of the available functions in the library, you might even find that typing “Point.ByCoordinates” is faster than searching in the library and finding the proper node.  When you type in *"Point."* for example, Dynamo will display a list of possible functions to apply to a Point.  This makes the scripting more intuitive and will help with learning how to apply functions in Dynamo.
-
+当你学会了更多可用的函数后，你会发现在*Code Block*直接输入“Point.ByCoordinates”比你去搜索框中寻找相应节点来得更快。例如，当你输入*"Point."* 时，Dynamo将显示一个展示所有与*"Point."*相关函数的列表。这将使编程过程更加直观，也会帮助我们更好的应用Dynamo中的函数。
 ### 创建Code Block节点
 Code Block节点可以在*Core>Input>Actions>Code Block*下面找到。但是最快的方法是直接双击工作区。由于这个节点经常被用到，所以拥有双击的特权。
 
