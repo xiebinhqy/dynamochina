@@ -1,15 +1,13 @@
-## 什么是Code Block？
-Code block is the special sauce of Dynamo.  It is a powerful tool which allows the user to work fluidly and parametrically throughout a project.  While the term 'code block' may be a little intimidating to non-programmers, it is both easy to use and robust.  A beginner can use the code block efficiently with minimal coding, and an advanced user can define scripted definitions to be recalled elsewhere in a Dynamo definition.  We highly recommend that you get familiar with code block as you develop your Dynamo definitions, and this chapter demonstrates how and why the code block is awesome.
+## 什么是*Code Block*？
 
-Code block是Dynamo中一个特殊的节点。它
+*Code block*是Dynamo中一个特殊的节点。它是帮助我们项目参数化的工具。虽然它名字中的“代码”二字可能会吓到一些非码农，但其实它既易用也实用。初学者可以使用少量的代码让工作变得高效，而熟练的使用者可以用它来调用dynamo的节点。我们非常建议您熟悉*Code block*这个节点的用法，本章节就将向您介绍这方面的内容。
 
 ![Code Block Intro](images/7-1/daisy.png)
 
 ###Code Block概览
-In short, code blocks are a text-scripting interface within a visual-scripting environment.  They can be used as numbers, strings, formulas, and other data types.  The code block is designed for Dynamo, so one can define arbitrary variables in the code block, and those variables are automatically added to the inputs of the node:
-简单来说，code blocks是一个可视化编程环境中的一个脚本接口。它可以当作数值、字符串、公式等。
+简单来说，*Code Block*是一个可视化编程环境中的一个脚本接口。它可以当作数值、字符串、公式等。当你在*Code Block*中定义任何变量时，该变量将自动添加到输入的节点中：
 
-With code blocks, a user has the flexibility to decide how to specify inputs. Here are several different ways to make a basic point with coordinates *(10, 5, 0)*:
+使用*Code Block*节点用户可以灵活的指定输入的内容。以下展示了几种不同的方法来创建一个坐标为(10,5,0)的点:
 ![Flexibility](images/7-2/flexibility.png)
 
 As you learn more of the available functions in the library, you might even find that typing “Point.ByCoordinates” is faster than searching in the library and finding the proper node.  When you type in *"Point."* for example, Dynamo will display a list of possible functions to apply to a Point.  This makes the scripting more intuitive and will help with learning how to apply functions in Dynamo.
