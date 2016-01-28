@@ -1,0 +1,108 @@
+<Workspace Version="0.9.0.3011" X="78.0310687758092" Y="-98.2047887357959" zoom="0.866795908761204" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="False">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="Line" resolvedName="Autodesk.DesignScript.Geometry.Line" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="Surface" resolvedName="Autodesk.DesignScript.Geometry.Surface" assemblyName="ProtoGeometry.dll" />
+    <ClassMap partialName="UV" resolvedName="Autodesk.DesignScript.Geometry.UV" assemblyName="ProtoGeometry.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <Dynamo.Nodes.CodeBlockNodeModel guid="0821e914-5e7e-4c46-821d-c33aa51997fd" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="719.21157047192" y="426.143236329659" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" CodeText="l1 = Line.ByStartPointEndPoint(p1, p2);&#xA;l2 = Line.ByStartPointEndPoint(p3, p4);&#xA;l3 = Line.ByStartPointEndPoint(p5, p6);&#xA;surf = Surface.ByLoft({l1, l2, l3});" ShouldFocus="false" />
+    <Dynamo.Nodes.DSFunction guid="10e53e52-a306-4215-aad4-9ee3b08a3375" type="Dynamo.Nodes.DSFunction" nickname="Point.ByCoordinates" x="368.463961479739" y="222.024352859604" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double">
+      <PortInfo index="0" default="True" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <DSCoreNodesUI.Input.DoubleSlider guid="89fb2bb1-4e57-44b4-b600-f554a70a9707" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="4.63577509080994" y="464.671054419418" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>7</System.Double>
+      <Range min="0" max="100" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <DSCoreNodesUI.Input.DoubleSlider guid="dba55cdb-460b-4508-b2e4-869fa35d851a" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="3.0905167272067" y="836.129635633852" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>0</System.Double>
+      <Range min="0" max="100" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <Dynamo.Nodes.DSFunction guid="7e1d623a-eb26-4783-b309-207720aa9c41" type="Dynamo.Nodes.DSFunction" nickname="Point.ByCoordinates" x="368.463961479739" y="382.587686192938" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double">
+      <PortInfo index="0" default="True" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <DSCoreNodesUI.Input.DoubleSlider guid="9069cf55-bc0d-450c-bb31-389d800de708" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="-1.13686837721616E-13" y="689.456817402236" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>30</System.Double>
+      <Range min="0" max="100" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <Dynamo.Nodes.DSFunction guid="bba01c24-4d3d-4043-805e-5678e59192fb" type="Dynamo.Nodes.DSFunction" nickname="Point.ByCoordinates" x="368.463961479739" y="704.714352859604" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double">
+      <PortInfo index="0" default="True" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <DSCoreNodesUI.Input.DoubleSlider guid="6b7deee0-6366-4ebe-b782-add7900f3563" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="4.63577509080991" y="949.666875868743" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>-10</System.Double>
+      <Range min="-10" max="10" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <DSCoreNodesUI.Input.DoubleSlider guid="94fcdf8f-5404-4903-8b5e-224ff175e14b" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="-1.54525836360324" y="580.64689963676" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>12</System.Double>
+      <Range min="10" max="20" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <Dynamo.Nodes.DSFunction guid="e98be2b6-8aa5-4568-a341-bfec1a684089" type="Dynamo.Nodes.DSFunction" nickname="Point.ByCoordinates" x="368.463961479739" y="544.15101952627" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double">
+      <PortInfo index="0" default="True" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <Dynamo.Nodes.DSFunction guid="076ec54a-944d-4eb4-8f54-a71b23b95c13" type="Dynamo.Nodes.DSFunction" nickname="Point.ByCoordinates" x="368.463961479739" y="1025.84101952627" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double">
+      <PortInfo index="0" default="True" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <Dynamo.Nodes.DSFunction guid="0a50af9c-c0d8-4879-8acd-5fdb54f5ad0f" type="Dynamo.Nodes.DSFunction" nickname="Point.ByCoordinates" x="368.463961479739" y="865.277686192937" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double">
+      <PortInfo index="0" default="True" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Nodes.DSFunction>
+    <DSCoreNodesUI.Input.DoubleSlider guid="0aa7ec9e-cd06-4bed-bd74-aa026a5f415a" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="6.1810334544133" y="244.013956063084" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>0</System.Double>
+      <Range min="0" max="100" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <DSCoreNodesUI.Input.DoubleSlider guid="48d75981-abab-4905-9adc-7ed709262883" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="6.1810334544133" y="350.170023768017" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>20</System.Double>
+      <Range min="0" max="100" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <DSCoreNodesUI.Input.DoubleSlider guid="c1ecf5ca-40a8-4ed2-b1c6-ec04f72c12e5" type="DSCoreNodesUI.Input.DoubleSlider" nickname="Number Slider" x="8.10296067436371" y="1063.93135851398" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True">
+      <System.Double>8</System.Double>
+      <Range min="0" max="10" step="0.1" />
+    </DSCoreNodesUI.Input.DoubleSlider>
+    <Dynamo.Nodes.DSFunction guid="2bf848d1-7e3b-43fd-a116-add019e4034f" type="Dynamo.Nodes.DSFunction" nickname="AnalyticalPanel.BySurface" x="1272.87420898174" y="467.966446749764" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" assembly="..\bin\DynamoSimulationRSA.dll" function="DynamoSimulation.RSA.AnalyticalModel.AnalyticalPanel.BySurface@Autodesk.DesignScript.Geometry.Surface,int">
+      <PortInfo index="1" default="True" />
+    </Dynamo.Nodes.DSFunction>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="0821e914-5e7e-4c46-821d-c33aa51997fd" start_index="3" end="2bf848d1-7e3b-43fd-a116-add019e4034f" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="10e53e52-a306-4215-aad4-9ee3b08a3375" start_index="0" end="0821e914-5e7e-4c46-821d-c33aa51997fd" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="89fb2bb1-4e57-44b4-b600-f554a70a9707" start_index="0" end="10e53e52-a306-4215-aad4-9ee3b08a3375" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="89fb2bb1-4e57-44b4-b600-f554a70a9707" start_index="0" end="7e1d623a-eb26-4783-b309-207720aa9c41" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dba55cdb-460b-4508-b2e4-869fa35d851a" start_index="0" end="10e53e52-a306-4215-aad4-9ee3b08a3375" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dba55cdb-460b-4508-b2e4-869fa35d851a" start_index="0" end="7e1d623a-eb26-4783-b309-207720aa9c41" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dba55cdb-460b-4508-b2e4-869fa35d851a" start_index="0" end="0a50af9c-c0d8-4879-8acd-5fdb54f5ad0f" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="dba55cdb-460b-4508-b2e4-869fa35d851a" start_index="0" end="076ec54a-944d-4eb4-8f54-a71b23b95c13" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7e1d623a-eb26-4783-b309-207720aa9c41" start_index="0" end="0821e914-5e7e-4c46-821d-c33aa51997fd" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9069cf55-bc0d-450c-bb31-389d800de708" start_index="0" end="0a50af9c-c0d8-4879-8acd-5fdb54f5ad0f" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9069cf55-bc0d-450c-bb31-389d800de708" start_index="0" end="076ec54a-944d-4eb4-8f54-a71b23b95c13" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bba01c24-4d3d-4043-805e-5678e59192fb" start_index="0" end="0821e914-5e7e-4c46-821d-c33aa51997fd" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="6b7deee0-6366-4ebe-b782-add7900f3563" start_index="0" end="e98be2b6-8aa5-4568-a341-bfec1a684089" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="94fcdf8f-5404-4903-8b5e-224ff175e14b" start_index="0" end="e98be2b6-8aa5-4568-a341-bfec1a684089" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="94fcdf8f-5404-4903-8b5e-224ff175e14b" start_index="0" end="bba01c24-4d3d-4043-805e-5678e59192fb" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="e98be2b6-8aa5-4568-a341-bfec1a684089" start_index="0" end="0821e914-5e7e-4c46-821d-c33aa51997fd" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="076ec54a-944d-4eb4-8f54-a71b23b95c13" start_index="0" end="0821e914-5e7e-4c46-821d-c33aa51997fd" end_index="5" portType="0" />
+    <Dynamo.Models.ConnectorModel start="0a50af9c-c0d8-4879-8acd-5fdb54f5ad0f" start_index="0" end="0821e914-5e7e-4c46-821d-c33aa51997fd" end_index="4" portType="0" />
+    <Dynamo.Models.ConnectorModel start="0aa7ec9e-cd06-4bed-bd74-aa026a5f415a" start_index="0" end="10e53e52-a306-4215-aad4-9ee3b08a3375" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="0aa7ec9e-cd06-4bed-bd74-aa026a5f415a" start_index="0" end="e98be2b6-8aa5-4568-a341-bfec1a684089" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="0aa7ec9e-cd06-4bed-bd74-aa026a5f415a" start_index="0" end="0a50af9c-c0d8-4879-8acd-5fdb54f5ad0f" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="48d75981-abab-4905-9adc-7ed709262883" start_index="0" end="7e1d623a-eb26-4783-b309-207720aa9c41" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="48d75981-abab-4905-9adc-7ed709262883" start_index="0" end="bba01c24-4d3d-4043-805e-5678e59192fb" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="48d75981-abab-4905-9adc-7ed709262883" start_index="0" end="076ec54a-944d-4eb4-8f54-a71b23b95c13" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c1ecf5ca-40a8-4ed2-b1c6-ec04f72c12e5" start_index="0" end="bba01c24-4d3d-4043-805e-5678e59192fb" end_index="2" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
