@@ -66,6 +66,6 @@
    * [Useful Packages](Appendix/A-3_packages.md)
    * [Example Files](Appendix/A-4_example-files.md)
    * Autodesk Home
-* [Autodesk Home](12_Autodesk Home)
+* [Autodesk Home](12_Autodesk Home/autodesk_home.md)
    * [New Projects](12_Autodesk Home/12_2 new_projects)
 
