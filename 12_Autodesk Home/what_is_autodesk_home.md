@@ -9,4 +9,9 @@ Autodesk Labs: You are free to discuss technology previews publicly.
 
 
 
+Beta Participation
+If you wish to participate in other product betas, make sure you keep your profile up to date and indicate the products you want to participate in betas for. Product teams recruit for new beta candidates based on your up to date profile and past participation.
+
+
+
 
