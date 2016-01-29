@@ -48,13 +48,13 @@
 ||(2)DesignScript语法||zhangzbxyz
 ||(3)代码的简写||zhangzbxyz
 ||(4)函数||zhangzbxyz
-|08 在revit中的运用|||
-||(1)Revit连接||
-||(2)Revit输入节点||
-||(3)Revit编辑||
-||(4)Revit在Dy创建||
-||(5)Dynamo其他动能||
-||(6)Dynamo实例介绍||
+|08 在revit中的运用|||RandomCodeRay
+||(1)Revit连接||RandomCodeRay
+||(2)Revit输入节点||RandomCodeRay
+||(3)Revit编辑||RandomCodeRay
+||(4)Revit在Dy创建||RandomCodeRay
+||(5)Dynamo其他动能||RandomCodeRay
+||(6)Dynamo实例介绍||RandomCodeRay
 |09 Dynamo自定义节点|||
 ||(1)Dynamo自定义节点介绍||
 ||(2)Dynamo自定义节点创建||
