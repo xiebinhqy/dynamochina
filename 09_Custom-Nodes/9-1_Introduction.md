@@ -1,7 +1,10 @@
 ## Custom Nodes
+
 ## 自定义节点
 
 Dynamo offers many core nodes for a wide-range of visual programming tasks. Sometimes a quicker, more elegant, or more easily shared solution is to build your own nodes. These can be reused among different projects, they make your graph clearer and cleaner, and they can be pushed to the package manager and shared with the global Dynamo community.
+
+Dynamo提供了很多核心的节点供广泛的可视化编任务，一个更快、更便捷、更容易的解决方案是建立自定义节点的前提。这些在不同的项目中可以通用的，他们让你的图形界面更加清晰，思路更加明了，可以共享到Dynamo论坛社区.
 
 ![](images/9-1/cn.jpg)
 
@@ -10,6 +13,10 @@ Dynamo offers many core nodes for a wide-range of visual programming tasks. Some
 ### 干扰曲线图
 
 Custom Nodes are constructed by nesting other nodes and custom nodes inside of a "Dynamo Custom Node," which we can think of conceptually as a container. When this container node is executed in your graph, everything inside it will be executed to allow you to reuse and share a useful combination of nodes.
+
+定义节点是由嵌套其他节点和自定义节点内部的“发电机自定义节点”,我们可以认为在概念上是一个容器。当这个容器节点执行你的图,里面的一切将允许你执行节点的重用和共享一个有用的组合。
+
+
 
 ###Adapting to Change
 ### 自适应
