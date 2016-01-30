@@ -3,6 +3,8 @@ img{display:block;margin-left: auto;   margin-right: auto }
 </style>
 
 ##Adding to Your Library
+# 增加你的节点库
+
 We've just created a custom node and applied it to a specific process in our Dynamo graph. And we like this node so much, we want to keep it in our Dynamo library to reference in other graphs. To do this, we'll publish the node locally. This is a similar process to publishing a package, which we'll walk through in more detail in the next chapter.
 
 ###Publishing a Custom Node Locally
