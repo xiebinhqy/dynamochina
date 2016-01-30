@@ -59,7 +59,7 @@ dynamo是个开源项目,由马特Jezyk和Autodesk的Dynamo的开发团队共开
 
 感谢马特•Jezyk伊恩Keough扎克克隆亚麻,科林McCrone热情合作参与各种Dynamo各种研发.
 
-### Software and Resources   软件和资源
+### 软件和资源
 
 参数化Dynamo当前稳定版本是0.9.0版。
 
