@@ -1,21 +1,9 @@
 The MIT License (MIT)
 
-Copyright (c) 2014 Tom Johnson
+版权(c)2014年Tom Johnson
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+特此授予许可,免费的,任何的人获得一份　　这个软件和相关文档的文件(“软件”),交易　　在软件没有限制,包括但不限于权利　　使用、复制、修改、合并、出版、发行、有偿和/或出售　　软件的副本,并允许他们的软件　　的,应当具备下列条件:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+上述实质性部分和软件声明最终解释权归我放所有
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+软件提供了“是”,没有任何类型的保证,明示或　　暗示的保证,包括但不限于适销性的保证, 　　健身为特定目的和无侵犯。在任何事件应当的　　作者或版权持有人承担任何索赔、损害或其他　　责任,无论是在一个动作的合同,侵权或否则,因, 　　或与软件或使用或其他交易　　软件。
