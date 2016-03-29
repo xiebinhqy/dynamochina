@@ -1,11 +1,6 @@
 ##Developing a Package
-##开发程序包
 
 Dynamo offers a variety of ways to create a package for your personal use or for sharing with the Dynamo community.  In the case study below, we'll walk through how a package is setup by deconstructing an existing one.  This case study builds on lessons from the previous chapter, providing a set of custom nodes for mapping geometry, by UV coordinates, from one Dynamo surface to another.
-
-发电机提供了多种方式来创建一个包供您个人使用或与发电机社区分享。在下面的案例中,我们将介绍如何设置一个包解构现有的一个。这个案例研究基于前一章的教训,提供一组定制节点几何映射,通过UV坐标,从一个发电机表面到另一个地方。
-
-Dynamo提供了多种方创建一个节点包，供一个人实用或者是与Dynamo社区论坛分享。在下面的案列中，我们将接自己的一个节点构建一个节点包，这个案列是基于前一章，提供一组自定义的节点映射，通过UV坐标，从一个位置移到另一个位置.
 
 ###MapToSurface
 In the previous chapter, we explored ways for panelizing a surface in Dynamo based on curves defined in the XY plane. This case study extends these concepts for more complex geometry.  We're going to install this package as built in order to demonstrate how it was developed.  In the next section, we'll demonstrate how this package was published.

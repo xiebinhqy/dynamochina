@@ -1,56 +1,32 @@
-## Documenting  【文件编制】
+## Documenting
 Editing parameters for documentation follows suit with the lessons learned in prior sections.  In this section, we'll look at editing parameters which don't affect the geometric properties of an element, but instead prepare a Revit file for documentation.
 
-根据编辑参数文档之间的关系以及联系。在本节中,我们来看看编辑参数影响revit文件的属性。
-
-#### Deviation   【偏离】
+#### Deviation
 In the exercise below, we'll use a basic deviation from plane node to create a Revit sheet for documentation. Each panel on our parametrically defined roof structure has a different value for deviation, and we want to call out the range of values using color and by scheduling out the adaptive points to hand off to a facade consultant, engineer, or contractor.
-
-在下面的练习中,我们将使用一个基本的偏离平面节点，在Revit中创建一个文档。我们每个为主参数化定义的屋顶结构有不同的偏差,我们想让出值的范围使用颜色和通过自适应点来改变形状。
 
 ![deviation](images/8-6/deviation.png)
 > The deviation from plane node will calculate the distance that the set of four points varies from the best-fit plane between them.  This is a quick and easy way to study constructability.
 
-> 偏离平面节点将计算距离与它们之间的距离各个点都有不同的距离。这是一个快速和简单的方法来研究方式。
-
-### Exercise   【练习】
+### Exercise
 >Download the example files that accompanies this exercise (Right click and "Save Link As..."). A full list of example files can be found in the Appendix.
-
->下载示例文件,学习这个练习(右点击“链接另存为…”)。示例文件的完整列表可以在附录中找到。
-
 1. [Documenting.dyn](datasets/8-6/Documenting.dyn)
 2. [ARCH-Documenting-BaseFile.rvt](datasets/8-6/ARCH-Documenting-BaseFile.rvt)
 
 Start with the Revit file for this section (or continue from the previous section).  This file has an array of ETFE panels on the roof.  We'll reference these panels for this exercise.
 
-从Revit文件开始本节(或继续上一节)。这个文件有一个数组的屋顶。我们会参考这些来练习。
-
 ![Exercise](images/8-6/Exercise/17.png)
 > 1. Add a *Family Types* node to the canvas and choose *"ROOF-PANEL-4PT"*.
-> 1. 增加 *Family Types* 节点到工作区和选择 *"ROOF-PANEL-4PT"*.
 2. Plug this node into a Select *All Elements of Family Type* node to get all of the elements from Revit into Dynamo.
-
-2. 这个节点插入一个选择 *All Elements of Family Type* 节点从Revit在Dynamo获得所有的元素。
-
-After the node is very important, through the chateau marmont call revit inside data, basic parameters, is this
-
-这个节点很重要，以后通过Dynamo调用revit里边数据、基本参数，都是这个
 
 ![Exercise](images/8-6/Exercise/16.png)
 > 1. Query the location of adaptive points for each element with the *AdaptiveComponent.Locations* node.
-> 1. 查询自适应点里边的每个元素 *AdaptiveComponent.Locations* 使用这个节点.
 2. Create a polygon from these four points with the *Polygon.ByPoints* node.  Notice we now have an abstract version of the paneled system in Dynamo without having to import the full geometry of the Revit element.
-2. 用四个点的创建一个多边形 *Polygon.ByPoints* 使用这个节点.  请注意我们现在有一个不太稳定的版本,没有必要调用revit的全部几何元素.
 3. Calculate planar deviation with the *Polygon.PlaneDeviation* node.
-3. 计算平面的偏离 *Polygon.PlaneDeviation* 使用这个节点.
 
 ![Exercise](images/8-6/Exercise/15.png)
 > Just for kicks, like the previous exercise, let's set the *aperture ratio *of each panel based on its planar deviation.
-> 只是为了好玩,就像前面的联系文件, 让我们来设置 *孔径比例 *每个小组根据其平面的偏移.
 1. Add an *Element.SetParameterByName* node to the canvas and connect the adaptive components to the *element* input.  Connect a *code block* reading *"Aperture Ratio"* into the *parameterName* input.
-1. 增加 *Element.SetParameterByName* 这个节点到画布和自适应组件连接到 *element* 输入.  连接到a *code block* 读取 *"孔径比例"* 再插入 *parameterName* 输入.
 2. We cannot directly connect the deviation results into the value input because we need to remap the values to the parameter range.
-2. 偏差的结果我们不能直接连接到输入值,因为我们需要重新映射值的参数范围.
 
 ![Exercise](images/8-6/Exercise/14.png)
 > 1. Using *Math.RemapRange*, remap the deviation values to a domain between *.15 *and *.45*.

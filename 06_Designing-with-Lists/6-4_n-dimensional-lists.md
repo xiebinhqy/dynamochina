@@ -1,58 +1,29 @@
-## n-Dimensional Lists    
-##  多维数据【多层次数据】
-
+## n-Dimensional Lists
 Further down the rabbit-hole, let's add even more tiers to hierarchy. Data structure can expand far beyond a two-dimensional list of lists.  Since lists are items in and of themselves in Dynamo, we can create data with as many dimensions as possible.
-
-在兔子洞,让我们添加更多的层的层次结构。扩展数据结构远远超出了一个二维表列表。在Dynamo项目中,可以创建数据，尽可能多层次的数据
 
 The analogy we'll work with here are Russian Nesting Dolls.  Each list can be regarded as one container holding multiple items. Each list has its own properties and is also regarded as its own object.
 
-相比这里是俄罗斯套娃，每个列表可以被视为一个容器，保持多个项目，每个列表都有自己的属性,也被认为是自己的对象。
-
 ![Dolls](images/6-4/145493363_fc9ff5164f_o.jpg)
-
 > A set of Russian Nesting Dolls (Photo by  [Zeta](https://www.flickr.com/photos/beppezizzi/145493363)) is an analogy for n-Dimensional lists.  Each layer represents a list, and each list contains items within it.  In Dynamo's case, each container can have multiple containers inside (representing the items of each list).
-
-> 一组俄罗斯套娃(图片由[Zeta](https://www.flickr.com/photos/beppezizzi/145493363))是一个类比n维列表,每一层代表一个列表,每个列表包含项目。在Dynamo的情况下,每个集装箱里面可以有多个容器(代表每个列表项的)。
 
 n-Dimensional lists are difficult to explain visually, but we've set up a few exercises in this chapter which focus on working with lists which venture beyond two dimensions.
 
-n维列表是难以解释视觉,在本章重点处理列表中已经建立一些练习。
-
 ##Mapping and Combinations
-##映射和组合
-
 Mapping is arguably the most complex part of data management in Dynamo, and is especially relevant when working with complex hierarchies of lists.  With the series of exercises below, we'll demonstrate when to use mapping and combinations as data becomes multi-dimensional.
-
-映射可以说是最复杂的数据管理的一部分,Dynamo尤其在处理复杂的层次结构列表。下面的一系列演习,我们将演示何时使用映射和数据多维组合。
 
 Preliminary introductions to List.Map and List.Combine can be found in the previous section. In the last exercise below, we'll use these nodes on a complex data structure.
 
-初步介绍列表、视图和列表，结合在前一节中找到，在之前的练习下,我们将使用这些节点创建一个复杂的数据结构。
-
 ###Exercise - 2D Lists - Basic
-###练习   2D数据基础
-
-> Download the example files that accompanies this exercise (Right click and "Save Link As..."). A full list of example files can be found in the Appendix.
-
-> 下载示例文件,下载这个练习(右点击“链接另存为…”)。示例文件的完整列表可以在附录中找到。
-
+>Download the example files that accompanies this exercise (Right click and "Save Link As..."). A full list of example files can be found in the Appendix.
 1.[n-Dimensional-Lists.dyn](datasets/6-4/n-Dimensional-Lists.dyn)
 2.[n-Dimensional-Lists.sat](datasets/6-4/n-Dimensional-Lists.sat)
 
 
 This exercise is the first in a series of three which focuses on articulating imported geometry.  Each part in this series of exercises will increase in the complexity of data structure.
 
-这个练习是前边List的基础上做的升华，将增加复杂性数据结构的处理方式。
-
 ![Exercise](images/6-4/Exercise/A/04.png)
 > 1. Let's begin with the .sat file in the exercise file folder.  We can grab this file using the *File Path* node.
-
-> 1.让我们打开的sat文件的文件夹，我们可以抓住这个文件使用*文件路径*节点。
-
 2. With *Geometry.ImportFromSAT*, the geometry is imported into our Dynamo preview as two surfaces.
-2. *Geometry.ImportFromSAT*,将我们表面导入到Dynamo预览.
-
 
 ![Exercise](images/6-4/Exercise/A/03.png)
 > For this exercise, we want to keep it simple and work with one of the surfaces.
