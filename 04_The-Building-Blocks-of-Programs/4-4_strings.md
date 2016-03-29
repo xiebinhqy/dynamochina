@@ -1,22 +1,18 @@
-##Strings   【字符串】
+##Strings
 Formally, a **String** is a sequence of characters representing a literal constant or some type of variable. Informally, a string is programming lingo for text.  We've worked with numbers, both integers and decimal numbers, to drive parameters and we can do the same with text.
 
-###Creating Strings     【创建字符串】
+###Creating Strings
 Strings can be used for a wide range of applications, including defining custom parameters, annotating documentation sets, and parsing through text-based data sets. The string Node is located in the Core>Input Category.
 
 ![String Examples](images/4-4/4-4-1-005.png)
 > The sample Nodes above are strings.  A number can be represented as a string, as can a letter, or an entire array of text.
 
-###Querying Strings    【查询字符串】
+###Querying Strings
 >Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Building Blocks of Programs - Strings.dyn](datasets/4-5/Building Blocks of Programs - Strings.dyn). A full list of example files can be found in the Appendix.
 
 You can parse through large amounts of data quickly by querying strings.  We'll talk about some basic operations which can speed up a workflow and help for software interoperability.
 
-你可以通过大量数据的快速解析查询字符串。我们会讨论一些基本操作,可以加速一个工作流,帮助软件互操作性。
-
 The image below considers a string of data coming from an external spreadsheet.  The string represents the vertices of a rectangle in the XY-Plane.  Let's break down some string split operations in miniature exercise:
-
-下图是一个字符串的数据来自外部的Excel。该字符串代表一个矩形的顶点在xy平面,让我们来联系一些字符串分割操作：
 
 ![StringSplit](images/4-4/4-4-1-001.png)
 > 1. The ";" separator splits each vertex of the rectangle. This creates a list with 4 items for each vertex.
@@ -34,14 +30,10 @@ While the list of items above may look like numbers, they are still regarded as 
 ![StringToNumber](images/4-4/4-4-1-004.png)
 > 1. With some basic additional operations, we now have a rectangle drawn at the origin based on the original string input.
 
-###Manipulating Strings    【操作字符串】
+###Manipulating Strings
 Since a string is a generic text object, they host a wide range of applications.  Let's take a look at some of the major actions in the Core>String Category in Dynamo:
 
-一个字符串是一个通用的文本对象,它们是一个很广泛的exe(应用程序)。让我们看看一些主要的行动，在Dynamoz核心中的应用>字符串:
-
 This is a method of merging two strings together in order. This takes each literal string in a list and creates one merged string.
-
-这是一个方法,将两个字符串合并在一起。这需要每个列表，合并创建一个字符串。
 
 ![Concatenate](images/4-4/4-4-1-007.png)
 > The image above represents the concatenation of three strings:
@@ -50,14 +42,12 @@ This is a method of merging two strings together in order. This takes each liter
 
 The join method is very similar to concatenate, except it has an added layer of punctuation.
 
-连接方法连接非常相似,除了它需要额外的标点符号【；】
-
 If you've worked in Excel, you may have come across a CSV file.  This stands for comma-separated values.  One could use a comma (or in this case, two dashes) as the separator with the join Node in order to create a similar data structure:
 ![Concatenate](images/4-4/4-4-1-006.png)
 > The image above represents the joining of two strings:
 1. The separator input allows one to create a string which divides the joined strings.
 
-###Working with Strings     【处理字符串】
+###Working with Strings
 In this exercise, we're going to use methods of querying and manipulating strings to deconstruct the final stanza of Robert Frost's [Stopping By Woods on a Snowy Evening](http://www.poetryfoundation.org/poem/171621).  Not the most practical application, but it will help us to grasp conceptual string actions as we apply them to legible lines of rhythm and rhyme.
 
 ![Split String](images/4-4/4-4-4/00.png)
