@@ -4,7 +4,7 @@ thead {display: none}
 </style>
 
 ##Dynamo Packages
-Here are a list of some of the more popular packages in the Dynamo community. Developers, please add to the list! Remember, the [Dynamo Primer](https://github.com/DynamoDS/DynamoPrimer) is open-source!
+Here are a list of some of the more popular packages in the Dynamo community. Developers, please add to the list! Remember, the [Dynamo Primer](https://github.com/modelab/dynamo-primer) is open-source!
 
 <table>
   <tr>
@@ -24,7 +24,7 @@ Here are a list of some of the more popular packages in the Dynamo community. De
   <tr>
     <td width="10%"><img src="images/A-4/logo01.png"></img></td>
     <td width="55%"><b>CLOCKWORK FOR DYNAMO</b></td>
-    <td><a href="https://github.com/CAAD-RWTH/ClockworkForDynamo">Visit the Clockwork For Dynamo GitHub</td></a>
+    <td><a href="http://archi-lab.net/bumblebee-dynamo-and-excel-interop/">Visit the Clockwork For Dynamo GitHub</td></a>
   </tr>
   <tr>
     <td colspan="2">Clockwork is a collection of custom nodes for the Dynamo visual programming environment. It contains many Revit-related nodes, but also lots of nodes for various other purposes such as list management, mathematical operations, string operations, unit conversions, geometric operations (mainly bounding boxes, meshes, planes, points, surfaces, UVs and vectors) and paneling. </td>
@@ -158,15 +158,5 @@ Here are a list of some of the more popular packages in the Dynamo community. De
 
 
 
-<table>
-  <tr>
-    <td width="10%"><img src="images/A-4/Rhythm_L.png"></img></td>
-    <td width="55%"><b>RHYTHM</b></td>
-    <td><a href="https://github.com/sixtysecondrevit/RhythmForDynamo">Visit Rhythm on GitHub</td></a>
-  </tr>
-  <tr>
-    <td colspan="2"> At first glance, Rhythm isn't anything special. It does not involve any sophisticated code or anything of that nature. What Rhythm does represent though, is the result of practical thinking and diligence. The idea is this package helps users maintain Rhythm in Revit with Dynamo. Rhythm primarily consists of out of the box Dynamo nodes used in clever ways as they apply to the Revit environment. </td>
-    <td><img src="images/A-4/Rhythm_Image.png"></img></td>
-  </tr>
-</table>
+
 

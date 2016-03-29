@@ -48,19 +48,19 @@
 ||(2)DesignScript语法||zhangzbxyz
 ||(3)代码的简写||zhangzbxyz
 ||(4)函数||zhangzbxyz
-|08 在revit中的运用|||RandomCodeRay
-||(1)Revit连接||RandomCodeRay
-||(2)Revit输入节点||RandomCodeRay
-||(3)Revit编辑||RandomCodeRay
-||(4)Revit在Dy创建||RandomCodeRay
-||(5)Dynamo其他动能||RandomCodeRay
-||(6)Dynamo实例介绍||RandomCodeRay
-|09 Dynamo自定义节点||99%|xiebinhqy
-||(1)Dynamo自定义节点介绍|99%|xiebinhqy
-||(2)Dynamo自定义节点创建|99%|xiebinhqy
-||(3)Dynamo在本地上传自定义节点|99%|xiebinhqy
-||(4)Python 节点的使用|99%|xiebinhqy
-||(5)Python、Dynamo、Revit 的关系|99%|xiebinhqy
+|08 在revit中的运用|||
+||(1)Revit连接||
+||(2)Revit输入节点||
+||(3)Revit编辑||
+||(4)Revit在Dy创建||
+||(5)Dynamo其他动能||
+||(6)Dynamo实例介绍||
+|09 Dynamo自定义节点|||
+||(1)Dynamo自定义节点介绍||
+||(2)Dynamo自定义节点创建||
+||(3)Dynamo在本地上传自定义节点||
+||(4)Python 节点的使用||
+||(5)Python、Dynamo、Revit 的关系||
 |10 Dynamo节点包|||
 ||(1)Dynamo节点包介绍||
 ||(2)Dynamo节点包研究——网格工具包||
