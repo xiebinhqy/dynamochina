@@ -1,26 +1,8 @@
 {
-  "gitbook": "2.6.x",
-  "plugins": [
-    "-sharing",
-    "ga",
-    {
-      "name": "dynamo",
-      "version": "git+https://github.com/DynamoDS/gitbook-plugin-dynamo.git"
+    "plugins": ["ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-52186525-3"
+         }
     }
-  ],
-  "pluginsConfig": {
-    "ga": {
-      "token": "UA-52186525-3"
-    },
-    "dynamo": {
-      "customLinks":[
-        {            
-          "label": "Download",
-          "icon": "fa fa-file-pdf-o",
-          "url": "/Appendix/DynamoPrimer-Print.pdf"
-        }
-      ],
-      "favicon":"/images/icons/favicon.ico"
-    }
-  }
 }
