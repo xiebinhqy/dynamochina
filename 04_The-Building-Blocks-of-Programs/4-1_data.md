@@ -1,7 +1,7 @@
-##Data  【数据】
+##Data
 Data is the stuff of our programs. It travels through Wires, supplying inputs for Nodes where it gets processed into a new form of output data. Let's review the definition of data, how it's structured, and begin using it in Dynamo.
 
-###What is Data?   【什么是数据】
+###What is Data?
 Data is a set of values of qualitative or quantitative variables. The simplest form of data is numbers such as ```0```, ```3.14```, or ```17```. But data can also be of a number of different types: a variable representing changing numbers (```height```); characters (```myName```); geometry (```Circle```); or a list of data items (```1,2,3,5,8,13,...```). We need data to add to the input Ports of Dynamo's Nodes - we can have data without actions but we need data to process the actions that our Nodes represent. When we've added a Node to the Workspace, if it doesn't have any inputs supplied, the result will be a function, not the result of the action itself.
 
 ![Data and Actions](images/4-1/00-DataAndActions.png)
@@ -10,14 +10,14 @@ Data is a set of values of qualitative or quantitative variables. The simplest f
 2. Data and Action (A Node) successfully executes
 3. Action (A Node) without Data Inputs returns a generic function
 
-###Beware of Nulls   【小心无效】
+###Beware of Nulls
 The ```'null'``` type represents the absence of data. While this is an abstract concept, you will likely come across this while working with Visual Programming. If an action doesn't create a valid result, the Node will return a null. Testing for nulls and removing nulls from data structure is a crucial part to creating robust programs.
 
 | Icon | Name/Syntax | Inputs | Outputs |
 | -- | -- | -- | -- | -- | -- |
 | ![](../images/icons/DSCore-Object-IsNull-Large.png) | Object.IsNull | obj | bool |
 
-###Data Structures    【数据结构】
+###Data Structures
 When we are Visual Programming, we can very quickly generate a lot of data and require a means of managing its hierarchy. This is the role of Data Structures, the organizational schemes in which we store data. The specifics of Data Structures and how to use them vary from programming language to programming language. In Dynamo, we add hierarchy to our data through Lists. We will explore this in depth in later chapters, but let's start simply:
 
 A list represents a collection of items placed into one structure of data:

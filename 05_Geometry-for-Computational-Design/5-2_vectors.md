@@ -1,13 +1,10 @@
-## Vectors, Planes, and Coordinate Systems   【向量、平面、和向量系统】
+## Vectors, Planes, and Coordinate Systems
 Vectors, Planes, and Coordinate Systems make up the primary group of Abstract Geometry Types. They help us define location, orientation, and the spatial context for other geometry that describe shapes. If I say that I'm in New York City at 42nd Street and Broadway (Coordinate System), standing on the street level (Plane), looking North (Vector), I've just used these "Helpers" to define where I am. The same goes for a phone case product or a skyscraper - we need this context to develop our model.
-
-向量、平面和向量系统是抽象的几何体，这是帮助和说明，
 
 ![Vectors, Planes, and Coordinates](images/5-2/VectorsPlanesCoodinates.png)
 
 
 ### What's a Vector?
-### 向量的定义
 
 A vector is a geometric quantity describing Direction and Magnitude. Vectors are abstract; ie. they represent a quantity, not a geometrical element. Vectors can be easily confused with Points because they both are composed of a list of values. There is a key difference though: Points describe a position in a given coordinate system while Vectors describe a relative difference in position which is the same as saying "direction."
 
@@ -34,7 +31,7 @@ Vectors are a key component to our models in Dynamo. Note that, because they are
 >Download the example file that accompanies this image (Right click and "Save Link As..."): [Geometry for Computational Design - Vectors.dyn](datasets/5-2/Geometry for Computational Design - Vectors.dyn). A full list of example files can be found in the Appendix.
 
 ### What's a Plane?
-### 平面的定义
+
 Planes are two-dimensional abstract "Helpers." More specifically, Planes are conceptually “flat,” extending infinitely in two directions. Usually they are rendered as a smaller rectangle near their origin.
 
 ![Plane](images/5-2/Plane.png)
@@ -50,7 +47,7 @@ And you're correct! Most modeling software take advantage of construction planes
 >Download the example file that accompanies this image (Right click and "Save Link As..."): [Geometry for Computational Design - Planes.dyn](datasets/5-2/Geometry for Computational Design - Plane.dyn). A full list of example files can be found in the Appendix.
 
 ### What's a Coordinate System?
-### 坐标系统的定义
+
 If we are comfortable with Planes, we are a small step away from understanding Coordinate Systems. A Plane has all the same parts as a Coordinate System, provided it is a standard "Euclidean" or "XYZ" Coordinate System.
 
 There are other, however, alternative Coordinate Systems such as Cylindrical or Spherical. As we will see in later sections, Coordinate Systems can also be applied to other Geometry types to define a position on that geometry.
